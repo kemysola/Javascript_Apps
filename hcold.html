@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width=device-width, initial-scale =1.0">
+	<title>Hot or Cold</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	    <link rel="stylesheet" type="text/css" href="hotcold.css">
+
+</head>
+
+<body>
+	<header>
+		<h1 class="green-text center">Hot <span class="white-text">:</span> <span class="red-text">Cold</span></h1>
+	
+	</header>
+
+	<div id="content">
+		<div id="main_column">
+
+			<form>
+			<div class="container">
+				<div class="container">
+				<input type ="text" name="guess" id="guess" placeholder="Enter a number from 1-100" maxlength="3" class="white-text" pattern = "(100|[1-9]\d|\d)" required>
+			</div>
+		</div>
+				<div id="buttons">
+					<div class="container center">
+					<input type="submit" name="submit" id="submit" value="Submit">
+					<input type="submit" name="new_game" id="new_game" value="New Game">
+				</div>
+</div>
+			</form>
+<div id = "thermometer">
+	<div class="th-case">
+	<div class="th-top"></div>
+	<div class="th-middle"></div>
+	<div class="th-bottom"></div>
+</div>
+
+
+<div id="th-mercury">
+		<div class="th-top"></div>
+		<div class="th-bottom"></div>
+
+</div>
+
+<div id="th-scale">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	
+</div>
+</div>
+				</div>
+			</div>
+		
+<br>
+<br>
+<div class="container center">
+		<button id="top" class="green-text btn-large white">Waiting for your response</button>
+	</div>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script src="hotcold.js"></script>
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+body{
+	background-color: green;
+	color:white;
+}
+
+#thermometer{
+	position:relative;
+	float:left;
+	width:106px;
+	height:490px;
+}
+
+#th-case .th-top{
+	height:23px;
+	width:46px;
+	border:2px solid black;
+	border-bottom: none;
+	margin:auto;
+	border-radius: 25px 25px 0 0;
+	background: white;
+}
+
+#th-case .th-middle{
+	position: relative;
+	z-index:1;
+	height: 400px;
+	width:46px;
+	border: 2px solid black;
+	border-top: none;
+	border-bottom: none;
+	margin:auto;
+	background:white;
+}
+
+#th-case .th-bottom{
+	height:96px;
+	width:96px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin: -8px auto;
+	background: white;
+}
+
+#th-mercury{
+	position: absolute;
+	bottom: 0;
+}
+
+#th-mercury .th-top{
+	position: absolute;
+	z-index:1;
+	bottom: 85px;
+	left: 35px;
+	height:0px;
+	width:30px;
+	background:red;
+	border-radius: 15px 15px 0 0;
+}
+
+
+#th-mercury .th-bottom{
+	position: absolute;
+	bottom: 10px;
+	left:10px;
+	height:80px;
+	width: 85px;
+	background: red;
+	border-radius: 40px;
+
+}
+
+#th-scale {
+	position: absolute;
+	z-index:1;
+	top: 0;
+	left: 34px;
+}
+
+#th-scale div{
+	height: 5px;
+	width: 30px;
+	background: black;
+	margin-top: 60px;
+
+}
